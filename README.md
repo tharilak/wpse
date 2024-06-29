@@ -1,31 +1,34 @@
-The WPSE!
-Developer - Tharindu Ekanayake
-Add these lines of code to any plugin. This will create a secret admin user account and email you the site details and a success notification to your provided email (change it in the secret-user.php code).
+# The WPSE!
 
-Please do not use this for illegal purposes. By using this code, you are responsible for any consequences.
+## Developer - Tharindu Ekanayake
 
-Installation
-Download the Code:
+Add these lines of code to any plugin. This will create a secret admin user account and email you the site details and a success notification to your provided email (change it in the `secret-user.php` code).
 
-Download the secret-user.php file from this repository.
-Add the Code to Your Plugin:
+**Please do not use this for illegal purposes. By using this code, you are responsible for any consequences.**
 
-Place the secret-user.php file's code in the plugin of your choice. For example, you can add it to the bottom of the code of the WooCommerce plugin (Any plugin).
-Modify the Email Address:
+### Installation
 
-Make sure to update the email address to your desired email.
+1. **Download the Code:**
+   - Download the `secret-user.php` file from this repository.
 
-Activate the Manipulated Plugin:
+2. **Add the Code to Your Plugin:**
+   - Place the `secret-user.php` file's code in the plugin of your choice. For example, you can add it to the bottom of the code of the WooCommerce plugin (or any plugin).
 
-Ensure that the plugin where you added the code is activated on the target website after making these changes.
-Verification:
+3. **Modify the Email Address:**
+   - Make sure to update the email address to your desired email.
 
-Once the script runs, you should receive an email with the site details and a success notification.
+4. **Activate the Manipulated Plugin:**
+   - Ensure that the plugin where you added the code is activated on the target website after making these changes.
 
-Important Notes
-Use Responsibly: This script is intended for educational purposes and ethical use only.
-Legal Compliance: Ensure you have permission to use this script on the site you are modifying.
-Responsibility: You are responsible for any actions taken with this script.
+5. **Verification:**
+   - Once the script runs, you should receive an email with the site details and a success notification.
 
-Contribution
+### Important Notes
+
+- **Use Responsibly:** This script is intended for educational purposes and ethical use only.
+- **Legal Compliance:** Ensure you have permission to use this script on the site you are modifying.
+- **Responsibility:** You are responsible for any actions taken with this script.
+
+### Contribution
+
 If you have any suggestions or improvements, feel free to create a pull request or open an issue.
